@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Adventure Co.</title>
+</head>
+<body>
+    <header class="nav">
+        <div class="container">
+            <!-- prof comment
+              missing h1, add the anchor tag instead the h1
+            -->
+            <a href="./" class="nav__logo">
+                <img src="./images/logo-ac.svg" alt="AC Logo" class="icon">
+            </a>
+
+            <nav class="nav__links">
+                <ul class="nav__list">
+                    <li><a href="#about-section" class="nav__link">About</a></li>
+                    <li><a href="./blog-post.html" class="nav__link">Blog</a></li>
+                    <li><a href=".#" class="nav__link">Download</a></li>
+                    <li><a href=".#" class="nav__link">Sign up</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <main>
+
+        <section class="banner">
+
+            <div class="container">
+
+                <div class="banner__content">
+                    <h2 class="banner__title">Welcome to Adventure Co!</h2>
+                    <p class="banner__text">An app built for adventurers seeking fame, fortune, and a well organized gameplay experience!</p>
+                    <a href=".#" class="btn">Download the app!</a>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="card-group">
+
+            <div class="container">
+                <ul class="card-group__list">
+                    <li class="card-group__card">
+                        <a class="card" href="#">
+                            <div class="card__image">
+                                <img src="./images/card-character.svg"
+                                alt="Create a character image"
+                                >
+                            </div>
+                            <div class="card__content">
+                                <!-- prof comment
+                                  should be h2 since there is no section title h2
+                                -->
+                                <h3 class="card__title">Create a character!</h3>
+                                <p class="card__text">
+                                    Get started with your very first character.
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="card-group__card">
+                        <a class="card" href="#">
+                            <div class="card__image">
+                                <img src="./images/card-party.svg"
+                                alt="Form a party! image"
+                                >
+                            </div>
+                            <div class="card__content">
+                                <!-- prof comment
+                                  should be h2 since there is no section title h2
+                                -->
+                                <h3 class="card__title">Form a party!</h3>
+                                <p class="card__text">
+                                    Connect with friends and team up.
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="card-group__card">
+                        <a class="card" href=".#">
+                            <div class="card__image">
+                                <img src="./images/card-items.svg"
+                                alt="Find an item image"
+                                >
+                            </div>
+                            <div class="card__content">
+                                <!-- prof comment
+                                  should be h2 since there is no section title h2
+                                -->
+                                <h3 class="card__title">Find an item!</h3>
+                                <p class="card__text">
+                                    Add fantastic items too boost your character.
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+
+        <section class="about-content" id="about-section">
+
+            <div class="container">
+    
+                <div class="about-content__image">
+                    <img src="./images/about.jpg" alt="About picture">
+                </div>
+    
+                <div class="about-content__content">
+                    <h2 class="about-content__title">About Adventure Co.</h2>
+                    <p class="about-content__text">
+                        Adventure Co. is a cooperative storytelling companion for D&D that uses your imagination and 
+                        invites you to adventure, battle, 
+                        discover, and complete epic quests with your friends through an immersive RPG experience. 
+                        Your first adventure is only a dice roll away!</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+    
+            </div>
+    
+        </section>
+
+        <section class="card-group">
+            <div class="container">
+                <h2>Recent Blog Posts</h2>
+
+                <ul class="card-group__list">
+
+                    <li class="card-group__card">
+                        <a class="card" href="./blog-post.html">
+
+                            <div class="card__content">
+                                <h3 class="card__title">
+                                    One-Shot Adventures: 
+                                    What They Are, Why We Love Them, and Recommendations 
+                                </h3>
+                                <p class="card__text">
+                                    By Mike Bernier
+                                </p>
+
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="card-group__card">
+                        <a class="card" href="https://www.dndbeyond.com/posts/1092-5-tips-for-running-the-death-house-one-shot-from">
+
+                            <div class="card__content">
+                                <h3 class="card__title">
+                                    5 Tips for Running the Death House One-Shot From Curse of Strahd
+                                </h3>
+                                <p class="card__text">
+                                    by Jeremy Blum
+                                </p>
+
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="card-group__card">
+                        <a class="card" href="https://www.dndbeyond.com/posts/1255-how-to-mashup-d-d-sourcebooks-for-versatile">
+
+                            <div class="card__content">
+                                <h3 class="card__title">
+                                    How to Mashup D&D Sourcebooks for Versatile Storytelling
+                                </h3>
+                                <p class="card__text">
+                                    by Riley Silverman
+                                </p>
+
+                            </div>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+
+        <div class="container">
+            <a href="./" class="footer__logo">
+                <img src="./images/logo-ac.svg" alt="AC Logo" class="icon">
+            </a>
+
+            <nav class="footer__nav">
+                <ul class="footer__list">
+                     <li><a href="#about-section" class="footer__link">About</a></li>
+                     <li><a href="./blog-post.html" class="footer__link">Blog</a></li>
+                     <li><a href=".#" class="footer__link">Download</a></li>
+                     <li><a href=".#" class="footer__link">Sign up</a></li>
+                </ul>
+            </nav>
+
+            <small class="footer__copyright">
+                &copy; 2022 Adventure Co-Operative
+                <!-- prof comment
+                    `<br>` should only be used when a line break is
+                    thematic, relevant, and necessary for the content.
+                    For example, within songs, poetry and addresses.
+
+                    `<br>` should never be used to create visual space.
+                    If you are using `<br>` in this way it is a sign you
+                    need to either fix your html or use margin in CSS.
+                -->     
+                <br><br>
+                <ul class="footer__list-links">
+                    <li><a href=".#" class="footer__link">Privacy Policy</a></li>
+                    <li><a href=".#" class="footer__link">Terms of Service</a></li>
+                </ul>
+            </small>
+
+        </div>
+    </footer>
+
+</body>
+</html>
